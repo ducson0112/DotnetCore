@@ -1,0 +1,40 @@
+﻿Biến, hằng, kiểu dữ liệu, nhập xuất dữ liệu.
+
+
+I. Biến (variable)
+ - khai báo: <Kieu_du_lieu> <ten_bien>;
+	ex: int n; string tenhocsinh;
+ - Gán giá trị: <Kieu_du_lieu> <ten_bien> = <gia_tri>
+	ex: int n = 10; string tenhocsinh = "nguynducson";
+
+
+II. Kiểu dữ liệu 
+ 1. Int: kiểu số nguyên (có dấu, 32bit, từ -2tỷ -> 2 tỷ)
+ 2. sbyte: kiểu số nguyên(có dấu, 8 bit, -128 -> 127)
+ 3. byte: Kiểu không dấu (không dấu, 8 bit, 0 -> 255)
+ 4. short: Kiểu số nguyên (có dấu, 16 bit, -32k -> 32k)
+ 5. ushort:kiểu số nguyên(không dấu, 16 bit, 0 -> 65k)
+ 6.long: kiểu số nguyên(có dấu, 64 bit, -9 tỷ tỷ -> 9 tỷ tỷ)
+ 7. ulong: Kiểu số nguyên(không dấu, 64 bit 0 -> 18 tỷ)
+ 8. float: số thực chấm động (32bit)
+ 9. double: số thực chấm động(64 bit)
+ 10. decimal: số thực chấm động(128bit)
+ 11. char: 1 kí tự(16 bit biểu diễn kí tự trong unicode)
+ 12. bool: kiểu logic(false/true)
+ 13.string: chuỗi/xâu kí tự
+ 14. object: đối tượng, cơ sở của mọi đối tượng, đều kế thừa từ object
+
+III. Nhập xuất dữ liệu
+ 1. Console.WriteLine()
+ 2. Console.ForegroundColor = ConsoleColor.DarkMagenta;
+ 3. Console.ResetColor();
+ 4. Format string
+ 5. Console.ReadLine();
+ 6. Convert.ToInt32(value)/ToDouble(value)/ToBoolean(value);
+ 7. Khai báo với var
+	ex: var bien1 = 3.14; -> double 
+
+
+IV. Hằng số 
+1. const: string Mon = "Monday".
+
