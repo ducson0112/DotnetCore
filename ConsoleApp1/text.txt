@@ -1,0 +1,20 @@
+I. Class
+    - Class là kiểu dữ liệu tham chiếu.  
+    - Lớp là tập hợp các biến, phương thức, 
+    - Từ 1 class -> tạo ra 1 đối tượng(object) 
+        VuKhi vukhi1 = new Vukhi();
+        VuKhi -> Class. vukhi1 -> đối tượng(bản triển khai của lớp/instance of class)
+    - Khai báo lớp
+        <Access Modifiers> class Class_Name {
+            // khai báo các thành viên dữ liệu (thuộc tính, biến trường dữ liệu )
+            // khai báo các thành viên hàm(phương thức)
+        }
+
+        <Access Modifiers> :
+            - public: không giới hạn truy cập.
+            - private(mặc định): chỉ truy cập được từ các thành viên của lớp chứa nó
+            - protected: chỉ truy cập từ trong nội bộ lớp hay các lớp kế thừa 
+            - internal: chỉ truy cập được trong cùng assembly(dll,exe) -> 
+            - protected internal: truy câpj được khi cùng assembly hoặc lớp kế thừa
+            - private protected: truy cập từ lớp chưas nó, lớp kế thừa nhưng phải cùng assembly.
+        
