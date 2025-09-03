@@ -1,0 +1,9 @@
+﻿I. Toán tử số học,  gán 
+    + - * / % += -= *= /= %= 
+II. So sánh, logic, lệnh if, switch
+     >  <  >=  <= 
+III. Cấu trúc mảng, dữ liệu mảng. 
+    int[] mang = new int[n];
+    string[][] mang2 = new string[][];
+IV. Phương thức(Method)
+    <access_modifier> <data_type> <ten_bien> (<parameter>) {}
